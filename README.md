@@ -9,7 +9,7 @@ El diagrama de flujo introducido son los siguientes:![Guess_the_Number_2](https:
 
 ![140508292-653fd739-13ba-40da-be41-bf68bcc0ab2e](https://user-images.githubusercontent.com/91721496/141656477-914359da-15a7-4654-abaa-695823148980.jpg)
 
-
+Siendo el primero la estructura del juego, y el segundo el modo de juego.
 
 El código es el siguiente:
 ```
