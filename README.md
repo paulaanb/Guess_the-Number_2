@@ -9,7 +9,8 @@ El diagrama de flujo introducido es:
 
 
 El código es el siguiente:
-'''#Creamos el juego donde el jugador debe intoducir un número aleatorio entre 0 y 100, debiendo adivinar dicho número.
+```
+#Creamos el juego donde el jugador debe intoducir un número aleatorio entre 0 y 100, debiendo adivinar dicho número.
 #Metodo para generar el número aleatorio dentro del rango.
 import random
 #Creamos una función para seleccionar el nivel en el que se quiera jugar una vez iniciado el juego
