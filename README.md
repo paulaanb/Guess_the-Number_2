@@ -90,7 +90,7 @@ def game():
         print("es el número a adivinar.\n")
         print("Ha tardado" + str(times) + ("intentos."))
 
-choose_level()
+'''choose_level()
 
 if level_option == 1:
     maxtime = 15
