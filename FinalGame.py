@@ -66,10 +66,10 @@ def game():
         minIA = min
         maxIA = max 
         time = (minIA + maxIA)//2
-        while time != number and times < maxtime: 
+        while time != number and times < maxtime:
             time = (minIA + maxIA)//2
             times += 1
-            print("La IA ha comprobado el número introducido" + str(time) + "y")
+            print("La IA ha comprobado el número introducido " + str(time) + " y ")
             if time > number:
                 print("este se encuentra por encima del número proporcionado.\n")
                 maxIA = time
@@ -77,7 +77,7 @@ def game():
                 print("este se encuentra por debajo del número proporcionado.\n")
                 minIA = time + 1
         print("es el número a adivinar.\n")
-        print("Ha tardado" + str(times) + ("intentos."))
+        print("Ha tardado " + str(times) + (" intentos."))
 
 choose_level()
 
