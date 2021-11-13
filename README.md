@@ -127,4 +127,3 @@ if level_option == 4:
     number = random.randint(min, max)
     print("\nPor favor, inserte el número a adivina generado aleatoriamente entre el 0 y el 100000.")
     game()
-    '''
