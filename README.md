@@ -92,7 +92,6 @@ def game():
 
 choose_level()
 
-
 if level_option == 1:
     maxtime = 15
     times = 0
