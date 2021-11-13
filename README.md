@@ -67,10 +67,10 @@ def game():
             if time == number:
                 break
         if time == number:
-            print("\n¡Enhorabuena! Has adivinado el número aleatorio en" ,str(times), "oportunidades.")
+            print("\n¡Enhorabuena! Has adivinado el número aleatorio en " ,str(times), " oportunidades.")
             score = maxtime - times
         if time != number:
-            print("Otra vez será, no ha logrado adivinar el número aleatorio en los" + str(maxtime) + "intentos posibles.")
+            print("Otra vez será, no ha logrado adivinar el número aleatorio en los " + str(maxtime) + " intentos posibles.")
         
         
     if chossen_mode == 2:
@@ -81,7 +81,7 @@ def game():
         while time != number and times < maxtime: 
             time = (minIA + maxIA)//2
             times += 1
-            print("La IA ha comprobado el número introducido" + str(time) + "y")
+            print("La IA ha comprobado el número introducido " + str(time) + " y ")
             if time > number:
                 print("este se encuentra por encima del número proporcionado.\n")
                 maxIA = time
@@ -89,7 +89,7 @@ def game():
                 print("este se encuentra por debajo del número proporcionado.\n")
                 minIA = time + 1
         print("es el número a adivinar.\n")
-        print("Ha tardado" + str(times) + ("intentos."))
+        print("Ha tardado " + str(times) + (" intentos."))
 
 '''choose_level()
 
@@ -128,3 +128,5 @@ if level_option == 4:
     number = random.randint(min, max)
     print("\nPor favor, inserte el número a adivina generado aleatoriamente entre el 0 y el 100000.")
     game()
+    
+#Final del juego
