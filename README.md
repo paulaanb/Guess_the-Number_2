@@ -5,7 +5,10 @@ En este juego hemos creado un juego para adivinar un valor comprendido entre un 
 El jugador tiene la opcion de elegir jugar en dos modos diferentes, el modo Propio Usuario y el modo IA. 
 
 
-El diagrama de flujo introducido es:
+El diagrama de flujo introducido son los siguientes:![Guess_the_Number_2](https://user-images.githubusercontent.com/91721496/141656474-0d65fe0d-6555-44e6-b00c-90e80e69b999.png)
+
+![140508292-653fd739-13ba-40da-be41-bf68bcc0ab2e](https://user-images.githubusercontent.com/91721496/141656477-914359da-15a7-4654-abaa-695823148980.jpg)
+
 
 
 El código es el siguiente:
